@@ -1,0 +1,1 @@
+the.data = read.table("Forest718.txt")
