@@ -20,4 +20,27 @@ plot(the.data[,9], the.data[,13])
 plot(the.data[,10], the.data[,13])
 plot(the.data[,11], the.data[,13])
 plot(the.data[,12], the.data[,13])
+max(the.data[,5])
+min(the.data[,5])
+max(the.data[,6])
+min(the.data[,6])
+max(the.data[,7])
+min(the.data[,7])
+max(the.data[,8])
+min(the.data[,8])
+max(the.data[,9])
+min(the.data[,9])
+max(the.data[,10])
+min(the.data[,10])
+max(the.data[,11])
+min(the.data[,11])
+max(the.data[,12])
+min(the.data[,12])
+max(the.data[,13])
+min(the.data[,13])
+
+
+
+
+
      
