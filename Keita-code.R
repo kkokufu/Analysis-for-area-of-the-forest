@@ -19,3 +19,5 @@ plot(the.data[,8], the.data[,13])
 plot(the.data[,9], the.data[,13])
 plot(the.data[,10], the.data[,13])
 plot(the.data[,11], the.data[,13])
+plot(the.data[,12], the.data[,13])
+     
