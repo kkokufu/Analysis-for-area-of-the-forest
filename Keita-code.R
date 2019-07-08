@@ -39,6 +39,7 @@ min(the.data[,12])
 max(the.data[,13])
 min(the.data[,13])
 my.data = array(0,c(517,9))
+my.data[,1] = (the.data[,5]-min(the.data[,5]))/(max(the.data[,5])-min(the.data[,5]))
 
 
 
