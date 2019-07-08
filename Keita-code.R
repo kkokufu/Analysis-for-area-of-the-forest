@@ -38,7 +38,7 @@ max(the.data[,12])
 min(the.data[,12])
 max(the.data[,13])
 min(the.data[,13])
-
+my.data = array(0,c(517,9))
 
 
 
