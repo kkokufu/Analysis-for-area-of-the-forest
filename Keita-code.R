@@ -45,4 +45,5 @@ my.data[,3] = (the.data[,7]-min(the.data[,7]))/(max(the.data[,7])-min(the.data[,
 my.data[,4] = (the.data[,8]-min(the.data[,8]))/(max(the.data[,8])-min(the.data[,8]))
 my.data[,5] = (the.data[,9]-min(the.data[,9]))/(max(the.data[,9])-min(the.data[,9]))
 my.data[,6] = (the.data[,10]-min(the.data[,10]))/(max(the.data[,10])-min(the.data[,10]))
+my.data[,7] = (the.data[,11]-min(the.data[,11]))/(max(the.data[,11])-min(the.data[,11]))
      
