@@ -42,6 +42,6 @@ my.data = array(0,c(517,9))
 my.data[,1] = (the.data[,5]-min(the.data[,5]))/(max(the.data[,5])-min(the.data[,5]))
 my.data[,2] = (the.data[,6]-min(the.data[,6]))/(max(the.data[,6])-min(the.data[,6]))
 my.data[,3] = (the.data[,7]-min(the.data[,7]))/(max(the.data[,7])-min(the.data[,7]))
-
+my.data[,4] = (the.data[,8]-min(the.data[,8]))/(max(the.data[,8])-min(the.data[,8]))
 
      
