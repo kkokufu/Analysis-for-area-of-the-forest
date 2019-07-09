@@ -48,4 +48,5 @@ my.data[,6] = (the.data[,10]-min(the.data[,10]))/(max(the.data[,10])-min(the.dat
 my.data[,7] = (the.data[,11]-min(the.data[,11]))/(max(the.data[,11])-min(the.data[,11]))
 my.data[,8] = (the.data[,12]-min(the.data[,12]))/(max(the.data[,12])-min(the.data[,12]))
 my.data[,9] = (the.data[,13]-min(the.data[,13]))/(max(the.data[,13])-min(the.data[,13]))
+write.table(my.data,"my-transformed.txt",)
      
