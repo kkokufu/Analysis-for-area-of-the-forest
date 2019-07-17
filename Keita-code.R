@@ -76,4 +76,15 @@ pre.table[,6] = my.data[,6]
 pre.table[,7] = my.data[,7]
 pre.table[,8] = my.data[,8]
 pre.table[,9] = my.data[,9]
+
+pre.table[,1] = my.data[,9]
+pre.table[,2] = my.data[,1]
+pre.table[,3] = my.data[,2]
+pre.table[,4] = my.data[,3]
+pre.table[,5] = my.data[,4]
+pre.table[,6] = my.data[,5]
+pre.table[,7] = my.data[,6]
+pre.table[,8] = my.data[,7]
+pre.table[,9] = my.data[,8]
+
      
