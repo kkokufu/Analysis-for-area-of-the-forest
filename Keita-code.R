@@ -67,4 +67,13 @@ fit.choquet(my.data[,c(2:9,1)], "Choquetoutput2.txt", "Choquetstats2.txt")
 (0-0)/(6.4-0)
 prediction.data = c(0.9406452, 0.6209511, 0.7096282, 0.1354724, 0.7202572, 0.3411765, 0.4, 0)
 pre.table = array(0,c(517,9))
+pre.table[,1] = my.data[,1]
+pre.table[,2] = my.data[,2]
+pre.table[,3] = my.data[,3]
+pre.table[,4] = my.data[,4]
+pre.table[,5] = my.data[,5]
+pre.table[,6] = my.data[,6]
+pre.table[,7] = my.data[,7]
+pre.table[,8] = my.data[,8]
+pre.table[,9] = my.data[,9]
      
