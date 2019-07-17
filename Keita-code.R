@@ -51,4 +51,10 @@ my.data[,9] = (the.data[,13]-min(the.data[,13]))/(max(the.data[,13])-min(the.dat
 write.table(my.data,"my-transformed.txt",)
 install.packages("lpSolve")
 source ("AggWaFit718.R")
+fit.QAM(my.data[,c(2:9,1)],"WAMoutput.txt", "WAMstats.txt")
+fit.QAM(my.data[,c(2:9,1)],"PMoutput.txt", "PMstats.txt", g=PM05, g.inv = invPM05)
+fit.QAM(my.data[,c(2:9,1)],"QMoutput.txt", "QMstats.txt", g=QM, g.inv = invQM)
+fit.OWA(my.data[,c(2:9,1)],"OWAoutput.txt", "OWAstats.txt")
+fit.choquet(my.data[,c(6,2,8,5,1)], "Choquetoutput1.txt", "Choquetstats1.txt")
+fit.choquet(my.data[,c(2:9,1)], "Choquetoutput2.txt", "Choquetstats2.txt")
      
