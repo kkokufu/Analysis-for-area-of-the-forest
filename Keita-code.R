@@ -86,5 +86,9 @@ pre.table[,6] = my.data[,5]
 pre.table[,7] = my.data[,6]
 pre.table[,8] = my.data[,7]
 pre.table[,9] = my.data[,8]
-
+fit.QAM(pre.table[,c(2:9,1)],"WAMoutput.txt1", "WAMstats.txt1")
+fit.QAM(pre.table[,c(2:9,1)],"PMoutput.txt1", "PMstats.txt1", g=PM05, g.inv = invPM05)
+fit.QAM(pre.table[,c(2:9,1)],"QMoutput.txt1", "QMstats.txt1", g=QM, g.inv = invQM)
+fit.OWA(pre.table[,c(2:9,1)],"OWAoutput.txt1", "OWAstats.txt1")
+fit.choquet(pre.table[,c(6,2,8,5,1)], "Choquetoutput1.txt1", "Choquetstats1.txt1")
      
