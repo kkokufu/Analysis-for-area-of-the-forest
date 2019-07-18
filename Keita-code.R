@@ -91,4 +91,6 @@ fit.QAM(pre.table[,c(2:9,1)],"PMoutput.txt1", "PMstats.txt1", g=PM05, g.inv = in
 fit.QAM(pre.table[,c(2:9,1)],"QMoutput.txt1", "QMstats.txt1", g=QM, g.inv = invQM)
 fit.OWA(pre.table[,c(2:9,1)],"OWAoutput.txt1", "OWAstats.txt1")
 fit.choquet(pre.table[,c(6,2,8,5,1)], "Choquetoutput1.txt1", "Choquetstats1.txt1")
-     
+WAMweights = c(0,1.00000000000001,0,0,0,0,0,0)
+QAM(prediction.data, WAMweights)
+0.6209511*(0.02100974-0.006287804)+0.006287804
